@@ -1,0 +1,533 @@
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size:1.1em;
+    line-height: 1.5;
+    padding: 0;
+    background-color: #fff;
+    
+    
+}
+
+/* header */
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.main-nav{
+    list-style: none;
+    
+    
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 90%;
+    font-weight: bold;
+}
+.main-nav li a:hover
+{
+    color:#e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding:15px 0;
+}
+.title{
+    position: absolute;
+    width:1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/whitec.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:#fff;
+}
+.btn{
+    border:1px solid #e67e22;
+    padding:15px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: #e67e22;
+    
+}
+.btn-half:hover{
+    background-color: #e67e22;
+    transition: all 0.9s ease-in;
+    color:#fff;
+
+}
+ 
+h2,h3,h4,h5,h6{
+    margin:0;
+    padding: 1em 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: Dancing Script;
+
+}
+p{
+    margin:0;
+    padding: 1em 0;
+}
+.btn-full{
+    background-color: #e67e22;
+    color:#fff;
+}
+
+.btn-full:hover{
+    background-color: #e67e50;
+    color:#fff;
+}
+
+/*section a*/
+.box{
+    text-align:center;
+     padding:2%;
+    text-justify: center;
+    color:rgba(84, 84, 84, 1);
+    text-justify: center;
+    
+}
+
+.content{
+    text-align: center;
+    margin-right: 13%;
+    margin-left:13%;
+    font-style: italic;
+    
+}
+
+.box-b, .box-d {
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/dessert2.jpg);
+    background-size: cover;
+    background-position: right;
+    z-index: -1;
+    opacity: 0.7;  
+    color:#fff;
+}
+
+/*section-b*/
+.box-b{
+    text-align: left;
+    width:100%;
+    color:#fff; 
+
+}
+
+.event{
+    margin-left: 28%;
+    list-style: none;
+}
+
+/*section-c*/
+.box-c{
+    text-align: center;
+    padding:2.5%;
+    
+}
+.title3{
+    text-align:center;
+    font-size: 3rem;
+    margin-top:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.box-e{
+    text-align:center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/des9.jpg);
+    background-size: cover;
+    background-position: left;
+    padding-top:30px;
+    margin:0px;
+    height:80vh;
+    opacity: 0.6;
+    color:#fff;
+    
+}
+
+.marg{
+    margin:30px;
+    font-size:3rem;
+    font-family: Dancing Script;
+}
+
+.but{
+    color:#fff;
+    background-color: #e77a32;
+    margin-right: 30px;
+    margin-top: 70px;
+    font-weight: 300;
+    border-radius: 6%;
+    text-align: center;
+    width: 13%;
+    border-color: #e77a32;
+    text-transform: unset;
+    
+
+    
+}
+
+.but:hover{
+    color:#e67e22;
+    background-color: black;
+    
+    
+}
+
+.title1{
+    font-size: 2.5rem; 
+    text-align: center;
+    font-weight:bold;
+    margin-left:13%;
+    margin-right:13%;
+    margin-top:2%;
+    font-style: italic;
+    opacity: 0.4;
+    
+}
+
+.box-fx{
+    margin-top:20px;
+    text-align:center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(image/des9.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height:70vh;
+    opacity: 0.6;
+    
+}
+
+.btn-content-wed{
+    background-color: black;
+    color: #fff;
+    width:15%;
+    align-content:center;
+    margin-top:20px;
+}
+
+.wed{
+    float:left;
+    color:#fff;
+}
+/* box f2 */
+
+
+.box-g{
+    background-color:rgb(218, 213, 213);
+    padding-bottom:10%;
+    height:80vh;
+    margin:0;
+}
+.li{
+    list-style:none ;
+}
+
+.four{
+    padding:px solid grey;
+    border:2px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    width:30%;
+    height:15%;
+    margin-top:4%;
+}
+.media-space{
+    cursor: pointer;
+    color:#ff0000;
+    
+}
+.section-h{
+    background-color: #000;
+    margin-top:10%;
+    color:#fff;
+}
+
+
+
+/* Menu page */
+.menu{
+    margin-top: 10%;
+}
+.menu-container1{
+    list-style: none;
+    text-decoration: none;
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+
+.menu-container2{
+    list-style: none;
+    text-decoration: none;
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+}
+.menu-container3{
+    list-style: none;
+    text-decoration: none;
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+}
+.main{
+    text-align: center;
+    font-style: Daning Script;
+    animation-name:main-dishes1;
+    animation-duration: 4s;
+
+}
+@keyframes main-dishes1{
+    0% {left: -20px}
+    100% {left: 20px}
+}
+.main-dishes1{
+    margin-top:20px;
+    border:10px solid #e67e22;
+    background-color:#000;
+    color:#fff;
+    
+}
+
+.main-dishes2{
+        margin-top:20px;
+        border:10px solid #e67e22;
+        background-color:#000;
+        color:#fff;
+        
+        
+}
+.main-dishes3{
+    margin-top:20px;
+    border:10px solid #e67e22;
+    background-color:#000;
+    color:#fff;
+    
+}
+
+
+
+/* ABOUT US */
+.about{
+    margin-top: 7%;
+    border-bottom: 3px#333 dashed;
+}
+.content-about{
+    margin-top: 3%;
+    margin-right:13%;
+    margin-left:13%;
+    text-align: center;
+}
+.column{
+    margin-top: 10%;
+    opacity: 0.6;
+}
+.service{
+    margin-left:5%;
+    color:brown;
+}
+.list{
+    margin-right: 3%;
+}
+.first{
+    float:right;
+}
+.second{
+    float:left;
+}
+img{
+   border-radius: 50%;
+   margin-right: 10%;
+   cursor: pointer;
+    
+
+}
+/* contact page */
+.header2{
+    background-image: url(image/des9.jpg);
+    background-size:cover;
+    background-position:center;
+    height:60vh;
+    margin:0;
+    padding:0;
+    text-align: center;
+    color:black;
+    opacity: 0.5;
+
+
+}
+.logo{
+    position: absolute;
+    width:110px;
+    top: 10%;
+    left: 45%;
+    transform: translate(-40%, -0%);
+    font-weight: bolder;
+    font-family:Harlow Solid Italic;
+    color:#fff;
+    
+}
+
+.under{
+    position:absolute;
+    top:15%;
+    left:42%;
+    font-family:Vijaya;
+    color:#fff;
+}
+.other-nav{
+    list-style:none;
+    width:100%;
+    text-decoration: none;
+}
+.other-nav li{
+    display:inline-block;
+    padding:25px;
+    margin-top:25%;
+    text-align: center;
+}
+
+.other-nav li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.other-nav li a :hover{
+    cursor: pointer;
+}
+
+/* content1 */
+
+.message{
+    margin-top:40px;
+    text-transform: uppercase;
+}
+
+.message1{
+text-align: center;
+color:#ff0000;
+font-size: 3.5rem;
+text-transform: uppercase;
+font-weight: bolder;
+}
+
+.form1{
+    margin-right:8%;
+    margin-left: 8%;
+    float:left;
+}
+
+.form2{
+    border:1px solid grey;
+    float:right;
+    height:50vh;
+}
+.button{
+    background-color:#5cb85c;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #fff;
+}
+.contf{
+    margin-top:20%;
+}
+
+/* event page */
+.chapter2{
+    text-align: center;
+}
+.logo{
+    font-size: 4rem;
+}
+.under{
+    margin-top:6%;
+}
+.content2{
+font-family:Harlow Solid Italic;
+font-size: 4rem;
+position:relative;
+animation:content2;
+animation-duration:4s;
+}
+
+@keyframes content2 {
+    0% {top: -80px;}
+    100% {top: 10px;}
+}
+
+
+.othercontent{
+  font-family:  Harlow Solid Italic;
+  margin-top:0;
+  font-size: 2rem;
+  margin-bottom:5%;
+}
+.main-content{
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    position:relative;
+    animation:main-content;
+    animation-duration:4s;
+    animation-fill-mode: forwards;   
+}
+@keyframes main-content {
+    0% {left: -1000px;}
+    100% {left: 0;}
+}
+
+
+.btn-event{
+margin-top: 8%;
+animation-name:btn-event;
+animation-duration:3s;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+transition-property: transform;
+transition-duration:1s;
+
+}
+.btn-event:hover{
+    transform: rotateY(180deg);
+}
+.chapter3{
+    margin-top: 10%;
+    position:relative;
+    animation:chapter3;
+    animation-duration:4s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes chapter3 {
+    0% {right: -1000px;}
+    100% {right: 0;}
+}
+.eventfooter{
+    margin-top:20%;
+}
+
+/* media queries */
+@media(min-width: 1200px){
+    .section {
+        display: 700px;}
+}
