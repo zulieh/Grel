@@ -13,11 +13,26 @@
     <!--header2-->
     <section class="header2">
             <div class="header-content"></div>
+            <div class="head">
             <h2 class="logo">Grel</h2>
             <h3 class="under">Events & Catering</h3>
+            </div>
             
     
             <div class="row">
+                    <nav class="navbar">
+                            <span class="open-slide">
+                                <a href="#" onclick="openSlideMenu()">
+                                    <svg width="30" height="30">
+                                        <path d ="M0,5 30,5" stroke="#fff"
+                                        stroke-width="5"/>
+                                        <path d ="M0,14 30,14" stroke="#fff"
+                                        stroke-width="5"/>
+                                        <path d ="M0,23 30,23" stroke="#fff"
+                                        stroke-width="5"/>
+                                    </svg>
+                               </a>
+                            </span>
                 <ul class="other-nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
@@ -27,6 +42,17 @@
                     
         
                 </ul>
+                <div id="side-menu" class="side-nav">
+                        <a href ="#" class= "btn-close" 
+                        onclick="closeSlideMenu()">&times;</a>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="event.html">Our Event</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+        
+                    </div>
+                     </nav>
             </div>
         </section>
         <!-- content1 -->
@@ -143,6 +169,23 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width
+            = '200px';
+            document.getElementById('head').style.marginLeft
+            = '350px';
+  
+        }
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width
+            = '0';
+            document.getElementById('head').style.marginLeft
+            = '0';
+  
+        }
+        
+    </script>       
 
         
         
