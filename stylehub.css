@@ -528,6 +528,5 @@ transition-duration:1s;
 
 /* media queries */
 @media(min-width: 1200px){
-    .section {
-        display: 700px;}
+   
 }
