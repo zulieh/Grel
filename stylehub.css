@@ -609,7 +609,211 @@ transition-duration:1s;
 }
 
 /* media queries for mobile */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
+    body{
+    font-size:1em;
+    line-height: 1;
+    padding: 0;
+    text-align: center;
+    }
+    .row{
+        max-width: 1000px;
+        margin:0 auto;
+    }
+    header{
+        height: 60vh;
+    }
+    .title{
+        position: absolute;
+        width:50px;
+        top: 20%;
+        left: 10%;
+        transition:margin-left 0.5s;
+        padding:0;
+        width:80%;
+    }
+    .title h1{
+        font-size:20px;
+    }
+    .box{
+        text-align:center;
+         padding:0;
+         
+
+        
+    }
+    .content{
+        text-align: center;
+        margin-right: 0;
+        margin-left:0;
+        font-style: normal;
+        height:60vh;
+        
+    }
+    .box-b{
+        text-align: left;
+        width:100%;
+        color:#fff; 
+    
+    }
+    
+    .event{
+        margin-left:2%;
+        list-style: square;
+
+    }
+    .box-c{
+        padding:0%;
+        
+    }
+    .title3{
+        font-size: 1.2rem;
+        margin-top:10px;
+        font-style:normal;
+    }
+    .box-e{
+        
+        padding-top:10px;
+        margin:0px;
+        height:50vh;
+        
+        
+    }
+    
+    .marg{
+        margin:10px;
+        font-size:1rem;
+        
+        
+    }
+    
+    .but{
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size:0.7rem;
+        width: 40%;
+        text-transform:unset;
+        
+        
+    }
+    .box-fx{
+        color:#fff;
+        height:50vh;
+    }
+    .box-fx h3{
+        font-size:1rem;
+    }
+    .content-wed{
+        padding-top:30px;
+        margin-top:20px;
+        margin-left:30%;
+        font-size:1.5rem;
+    }
+    .box-g{
+        
+        padding-bottom:4%;
+        height:110vh;
+        margin:0;
+    }
+    
+    .four h5{
+        width:50vh;
+        font-size:1.5rem;
+    }
+    
+    .four{
+        width:70vh;
+        height:8%;
+        margin-top:2%;
+    }
+    .media-space{
+        cursor: pointer;
+        color:#000;
+        
+    }
+    .media-space :hover{
+        cursor: pointer;
+        color:#e67e50;
+
+    }
+    /* webpages */
+    .header2{
+        height:60vh;
+        margin:0;
+        padding:0;
+        text-align: center;
+        color:black;
+        opacity: 0.5;
+    
+    
+    } 
+    .logo{
+    
+        width:110px;
+        top: 5%;
+        left: 40%;
+        
+    }
+    
+    .under{
+        top:20%;
+        left:8%;
+        width:100%;
+    }
+    .message1{
+        font-size: 2.5rem;
+        }
+        .menu-container1{
+            
+            width:80%;
+            margin-right:5%;
+            margin-left:5%;
+        }
+        
+        
+        .menu-container2{
+            
+            width:80%;
+            margin-right:5%;
+            margin-left:5%;
+        }
+        .menu-container3{
+            
+            width:80%;
+            margin-right:5%;
+            margin-left:5%;
+        }
+    
+        .content2{
+        font-size: 2rem;
+            
+        }
+        .main-content{
+            margin-left: 5%;
+            margin-right: 5%;
+              
+        }
+        .content-about{
+            margin-top: 3%;
+            margin-right:5%;
+            margin-left:5%;
+            text-align: center;
+            text-justify:center;
+        }
+    
+    .title1{
+        font-size: 1rem; 
+        text-align: center;
+        font-weight: bold;
+        margin-left: 13%;
+        margin-right:13%;
+        margin-top:2%;
+        font-style: italic;
+        opacity: 0.4;
+     }
+}
+/* media queries for tablet      */
+@media screen and (max-width: 768px) and (max-width: 1280px){
     body{
     font-size:1em;
     line-height: 1;
@@ -715,6 +919,7 @@ transition-duration:1s;
         height:110vh;
         margin:0;
     }
+    
     .four h5{
         width:50vh;
         font-size:1.5rem;
@@ -722,7 +927,7 @@ transition-duration:1s;
     
     .four{
         width:70vh;
-        height:10%;
+        height:8%;
         margin-top:2%;
     }
     .media-space{
